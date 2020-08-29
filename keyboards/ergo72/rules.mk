@@ -18,3 +18,6 @@ RGBLIGHT_ENABLE = no       # Enable keyboard RGB underglow
 
 SPLIT_KEYBOARD = yes
 SERIAL_DRIVER = usart
+
+CUSTOM_MATRIX = lite
+SRC += matrix.c

@@ -48,9 +48,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TOGGLE  1
 #define TAPPING_FORCE_HOLD_PER_KEY
 
-/* define if matrix has ghost */
-//#define MATRIX_HAS_GHOST
-
 #define TAPPING_TERM    200
 #define IGNORE_MOD_TAP_INTERRUPT 
 
@@ -61,6 +58,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define SPLIT_HAND_PIN B15
 #define SOFT_SERIAL_PIN B6
+#define SERIAL_USE_MULTI_TRANSACTION
 #define SELECT_SOFT_SERIAL_SPEED 1
 #define SERIAL_USART_DRIVER SD1
 #define SERIAL_USART_TX_PAL_MODE 0
