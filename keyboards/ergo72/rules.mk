@@ -21,3 +21,5 @@ SERIAL_DRIVER = usart
 
 CUSTOM_MATRIX = lite
 SRC += matrix.c
+
+OLED_DRIVER_ENABLE = yes
